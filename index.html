@@ -1,0 +1,232 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soft Glow Beauty</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+        background: linear-gradient(180deg, #ffe6ee, #fff);
+        color: #5a3a42;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        animation: fadeIn 1.5s ease;
+    }
+
+    header h1 {
+        font-size: 2.8rem;
+        color: #d96c8f;
+    }
+
+    header p {
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .product {
+        background: #fff;
+        border-radius: 25px;
+        padding: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+        animation: fadeIn 1.5s ease;
+    }
+
+    .product img {
+        width: 100%;
+        max-width: 350px;
+        border-radius: 20px;
+    }
+
+    .product-info {
+        flex: 1;
+    }
+
+    .product-info h2 {
+        color: #d96c8f;
+    }
+
+    .stars {
+        color: #f7b6c8;
+        font-size: 1.4rem;
+        margin: 10px 0;
+    }
+
+    .price {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #b84b6a;
+        margin: 10px 0;
+    }
+
+    .buy-btn {
+        display: inline-block;
+        margin-top: 20px;
+        background: #f7b6c8;
+        color: white;
+        padding: 15px 35px;
+        border-radius: 35px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .buy-btn:hover {
+        background: #d96c8f;
+        transform: scale(1.05);
+    }
+
+    .section {
+        background: #fff0f5;
+        border-radius: 30px;
+        padding: 50px 20px;
+        margin: 50px 0;
+        text-align: center;
+        animation: fadeIn 1.5s ease;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        color: #8a6a72;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Soft Glow Beauty 🌸</h1>
+    <p>Your safe space for affordable, comforting beauty essentials that make you glow softly and confidently.</p>
+</header>
+
+<div class="container">
+
+    <!-- PRODUCT 1 -->
+    <div class="product">
+        <img src="pads.jpg" alt="Reusable Beauty Pads">
+        <div class="product-info">
+            <h2>Reusable Beauty Cleansing Pads</h2>
+            <div class="stars">★★★★★</div>
+            <div class="price">R99.99</div>
+
+            <p>Ultra-soft reusable pads designed to gently remove makeup and cleanse your skin without irritation.</p>
+
+            <p>
+                💗 <strong>Why you'll love them:</strong><br>
+                – Gentle on sensitive skin<br>
+                – Washable & eco-friendly<br>
+                – Saves money long-term<br>
+                – Perfect for daily skincare
+            </p>
+
+            <a class="buy-btn" 
+               href="https://wa.me/27713715330?text=Hi%20Soft%20Glow%20Beauty%20💗%0AI%20would%20like%20to%20order:%0A- Reusable Beauty Cleansing Pads (R99.99)%0AName:%0AAddress:">
+               Order on WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="product">
+        <img src="ice-roller.jpg" alt="Ice Facial Roller">
+        <div class="product-info">
+            <h2>Soothing Ice Facial Roller</h2>
+            <div class="stars">★★★★★</div>
+            <div class="price">R130.99</div>
+
+            <p>A calming ice facial roller that reduces puffiness, tightens pores, and refreshes tired skin.</p>
+
+            <p>
+                💕 <strong>Why you'll love it:</strong><br>
+                – Reduces acne inflammation<br>
+                – Boosts circulation<br>
+                – Relaxing & cooling<br>
+                – Morning & night friendly
+            </p>
+
+            <a class="buy-btn" 
+               href="https://wa.me/27713715330?text=Hi%20Soft%20Glow%20Beauty%20💗%0AI%20would%20like%20to%20order:%0A- Soothing Ice Facial Roller (R130.99)%0AName:%0AAddress:">
+               Order on WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <!-- BUNDLE DEAL -->
+    <div class="section">
+        <h2>🎀 Self-Care Bundle Deal</h2>
+        <div class="stars">★★★★★</div>
+        <p><strong>Get BOTH products together & save!</strong></p>
+        <p>
+            Reusable Cleansing Pads + Ice Facial Roller<br>
+            <strong>Bundle Price: R210.00</strong> (Save R20+)
+        </p>
+
+        <a class="buy-btn"
+           href="https://wa.me/27713715330?text=Hi%20Soft%20Glow%20Beauty%20💗%0AI%20would%20like%20to%20order:%0A- Self-Care Bundle (R210.00)%0AName:%0AAddress:">
+           Order Bundle on WhatsApp
+        </a>
+    </div>
+
+    <!-- DELIVERY INFO -->
+    <div class="section">
+        <h2>📦 Delivery Information</h2>
+        <p>
+            🚚 Nationwide delivery available<br>
+            ⏱️ Delivery time: 2–7 working days<br>
+            📍 Tracking provided after dispatch<br>
+            💕 Carefully packaged with love
+            Delivary method PAXI
+        </p>
+    </div>
+
+    <!-- WHY US -->
+    <div class="section">
+        <h2>Why Soft Glow Beauty? 💖</h2>
+        <div class="stars">★★★★★</div>
+        <p>
+            We believe beauty should be affordable, gentle, and comforting.
+            That's why we offer premium-quality products at the <strong>lowest prices</strong>.
+        </p>
+        <p>
+            🌸 Trusted by happy customers<br>
+            🌸 Affordable luxury beauty<br>
+            🌸 Girl-approved essentials<br>
+            🌸 Friendly & reliable service
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Soft Glow Beauty | Soft care. Soft glow. 💗
+</footer>
+
+</body>
+</html>
